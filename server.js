@@ -10,4 +10,6 @@ app.get("/api/placeholder", (req, res) => {
     res.send({"outputText" : output});
 });
 
+console.log("Hi")
+
 app.listen(port, () => console.log("API running on port 9000"));
